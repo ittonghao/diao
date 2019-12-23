@@ -1,0 +1,195 @@
+
+/* 第一个页面 */
+/* 底下操作 */
+.warp1 {
+    width: 100%;
+}
+.caozuo {
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    background-color: white;
+}
+.an_niu {
+    flex: 1;
+}
+.an_niu div {
+    text-align: center;
+    padding-top: 5px;
+}
+.an_niu img {
+    width: 30px;
+    vertical-align: middle;
+}
+.an_niu span {
+   font-size: 10px;
+}
+/* 内容 */
+/* 搜索框 */
+.sousuo{
+width: 100%;
+height: 27px;
+}
+.sousuo img {
+    width: 26px;
+    vertical-align: middle;
+    border: none;
+}
+.sousuo input {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+/* 轮播区域 */
+.lunbo {
+    width: 100%;
+}
+.lunbo img {
+    width: 100%;
+}
+.lunbo span {
+    font-size: 10px;
+    padding-left: 10px;
+}
+/* 选播区 */
+.biao_ti {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 20px;
+}
+/* 选播区样式 */
+.duoduo2 {
+    width: 100%;
+    padding-bottom: 70px;
+}
+/* 小图片span */
+.shu_jia {
+    width: 45%;
+    display: inline-block;
+    padding-left: 2%;
+}
+/* 小图片 */
+.shu_jia img {
+    width: 45vw;
+    background-size: center;
+    padding-top: 10px;
+}
+.shu_jia span {
+    font-size: 0.88rem;
+}
+.shu_jia div {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+
+/* 第二个页面 */
+*{
+    margin: 0;
+    padding: 0;
+}
+.warp2 {
+    width: 100%;
+    height: 600px;
+    /* background-color: tomato; */
+    display: none;
+    
+}
+.huan_tai {
+    width: 100%;
+    /* background-color: yellowgreen; */
+    overflow-y: scroll;
+    overflow: none;
+}
+.huan_tai>ul {
+    width: 150%;
+    padding: 0;
+    margin: 0;
+}
+.huan_tai>ul>li{
+    margin-left: 5px;
+    margin-right: 30px;
+    list-style: none;
+    float: left;
+}
+.tu_img {
+    width: 100%;
+    margin: 0 auto;
+}
+.tu_img img {
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.qqq {
+    width: 100%;
+    /* height: 60px; */
+    display: flex;
+    /* background-color: yellow; */
+}
+.zuo {
+    /* background-color: blue; */
+    flex: 3;
+    display: flex;
+    
+}
+.zuo>.b1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: chartreuse;
+    
+    background-image: url(../my_img/er_img/b1.jpeg);
+}
+.zuo>.b2 {
+    flex: 1;
+    vertical-align: middle;
+}
+.b2>div{
+    float: left;
+    height: 20px;
+    margin-left:15px ;
+    margin-top: 5px;
+    background-color: #94949457;
+    border-radius: 10px;
+    font-size: 10px;
+    text-align: center;
+
+}
+.you{
+    flex: 2;
+    /* background-color: brown; */
+}
+.you div {
+    display: inline;
+}
+.you img {
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 13px;
+}
+
+
+
+
+/* 第三个页面 */
+.warp3 {
+    width: 100%;
+    height: 600px;
+    display: none;
+    background-color: navy;
+}
+.xuan_ze {
+    display: flex;
+}
+.warp4 {
+    width: 100%;
+    height: 600px;  
+    display: none;
+    background-color: orangered;
+}
