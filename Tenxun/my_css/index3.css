@@ -1,0 +1,55 @@
+/* 第三个页面 */
+.warp3 {
+    width: 100%;
+    height: 600px;
+    display: none;
+    /* background-color: navy; */
+}
+.xuan_ze {
+    display: flex;
+}
+.kuang1 {
+    font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.one {
+    color: orange;
+}
+/* 轮播区域 */
+.lunbo1 {
+    width: 100%;
+}
+.lunbo1 img {
+    width: 100%;
+}
+.lunbo1 span {
+    font-size: 10px;
+    padding-left: 10px;
+}
+.biao_ti {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 20px;
+}
+/* 选播区样式 */
+.jb {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+/* 小图片span */
+.shu_jia {
+    width: 45%;
+    display: inline-block;
+    padding-left: 2%;
+}
+/* 小图片 */
+.shu_jia span {
+    font-size: 0.88rem;
+}
+.shu_jia div {
+    font-size: 0.9rem;
+    font-weight: bold;
+}

@@ -1,0 +1,120 @@
+/* 第四个页面 */
+.warp4 {
+    width: 100%;
+    height: 600px; 
+    display: none;
+}
+/* 头像 */
+.tou_xiang {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    border-bottom: 2px solid rgba(246, 247, 249, 1);
+}
+.tou_xiang_img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-image: url(../my_img/si_img/touxiang.jpg);
+    background-size: cover;
+}
+/* 会员 */
+.hui_yuan {
+    width: 100%;
+    height: 90px;
+    position: relative;
+    border-bottom: 15px solid rgba(246, 247, 249, 1);
+}
+.hui_yuan span {
+    margin-left: 10px;
+    font-weight: bold;
+    vertical-align:top;
+}
+.papapa {
+    margin-top: 30px;
+    position: absolute;
+}
+.papapa img {
+    width: 20px;
+    height: 20px;
+}
+.bababa {
+    float: right;
+    padding-top: 35px;
+}
+.bababa img {
+    width: 24px;
+    height: 24px;
+    
+}
+/* 观看记录 */
+.li_shi {
+    width: 100%;
+    height: 160px;
+    border-bottom: 1px solid rgba(246, 247, 249, 1);
+}
+.nbnbnb {
+    font-weight: bold;
+    margin-left: 10px;
+}
+.xiao {
+    width: 100%;
+    overflow-y: scroll;
+    overflow: none;
+}
+.da {
+    width: 200%;
+
+}
+.da div {
+    display: inline-block;
+}
+.da img {
+    width: 136px;
+    height: 78px;
+    margin:5px 10px;
+}
+.da span {
+    padding-left: 40px;
+}
+/* 看单 */
+.kandan {
+    width: 100%;
+    height: 90px;
+    position: relative;
+    border-bottom: 15px solid rgba(246, 247, 249, 1);
+}
+.kandan span {
+    font-weight: bold;
+    left: 10px;
+    top: 35px;
+    position: absolute;
+}
+.kandan img {
+    width: 24px;
+    height: 24px;
+    float: right;
+    padding-top: 35px;
+}
+/* 观看历史 */
+.guankanlishi{
+    width: 100%;
+    height: 90px;
+    position: relative;
+    border-bottom: 15px solid rgba(246, 247, 249, 1);
+    margin-bottom: 90px;
+}
+.guankanlishi span{
+    position: absolute;
+    font-weight: bold;
+    left: 10px;
+    top: 35px;
+}
+.guankanlishi img {
+    width: 24px;
+    height: 24px;
+    float: right;
+    padding-top: 35px;
+}

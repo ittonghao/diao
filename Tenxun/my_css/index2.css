@@ -1,0 +1,92 @@
+
+/* 第二个页面 */
+
+/* 大页面 */
+.warp2 {
+    width: 100%;
+    height: 600px;
+    display: none;
+    
+}
+/* 顶部左右滚动条 */
+.huan_tai {
+    width: 100%;
+    overflow-y: scroll;
+    overflow: none;
+}
+.huan_tai>ul {
+    width: 150%;
+    padding: 0;
+    margin: 0;
+}
+.huan_tai>ul>.one{
+    color: orange;
+}
+.huan_tai>ul>li{
+    margin-left: 5px;
+    margin-right: 30px;
+    list-style: none;
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* 短视频样式 */
+.tu_img {
+    width: 100%;
+    margin: 0 auto;
+}
+.tu_img img {
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+/* 短视频标签样式 */
+.qqq {
+    width: 100%;
+    display: flex;
+}
+.zuo {
+    flex: 3;
+    display: flex;
+    
+}
+.zuo>.b1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: chartreuse;
+    background-size: cover;
+    background-image: url(../my_img/er_img/b1.jpeg);
+}
+.zuo>.b2 {
+    flex: 1;
+    vertical-align: middle;
+}
+.b2>div{
+    float: left;
+    height: 20px;
+    margin-left:15px ;
+    margin-top: 5px;
+    background-color: #94949457;
+    border-radius: 10px;
+    font-size: 10px;
+    text-align: center;
+
+}
+.you{
+    flex: 2;
+    /* background-color: brown; */
+}
+.you div {
+    display: inline;
+    
+}
+.you img {
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+    float: right;
+    background-size: cover;
+    margin-right: 13px;
+}
