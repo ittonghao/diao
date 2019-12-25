@@ -1,0 +1,64 @@
+.sousuo{
+    width: 100%;
+}
+.kuang0 {
+    width: 100%;
+    position: relative;
+}
+.sousuo2{
+	width: 290px;
+	height: 35px;
+	left: 15px;
+	top: 72px;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(166, 166, 166, 0.1);
+	border-radius: 6px;
+	font-size: 14px;
+	line-height: 150%;
+	text-align: center;
+}
+.quxiao {
+    right: 0;
+    position: absolute;
+    margin-right: 10px;
+}
+.lishi_sousuo1 {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.lishi_sousuo img{
+    width: 20px;
+    height: 20px;
+    float: right;
+    padding-right: 9px;
+}
+.jilu1 {
+    width: 170px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgba(166, 166, 166, 0.1);
+}
+.kuang0 img {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+.hhhhh {
+        width: 16px;
+        height: 16px;
+        left: 15px;
+        top: 241px;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(212, 48, 48, 1);
+        border-radius: 2px;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        display: inline-block;
+        margin-left: 15px;
+}
+.juming {
+    margin-left: 15px;
+}

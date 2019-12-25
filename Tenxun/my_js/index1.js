@@ -19,8 +19,9 @@ $(".an_niu").click(function(){
         }
     })
     $(".kandan").click(function(){
-        location.href = "kandian.html"
+        location.href = "kandian.html "
     })
+  
     $(".tiao>div").each(function (index , aaa) {
         if ($(t).index() == index) {
             $(aaa).css({
@@ -33,5 +34,19 @@ $(".an_niu").click(function(){
         }
     })
 })
+$(".fanhui_img").click(function(){
+    location.href = "index1.html"
+})
+$(".sousuo_1").click(function(){
+    location.href = "sousuo.html"
+})
+$(".quxiao").click(function(){
+    location.href = "index1.html"
+})
 
-
+$(".lunbo_tu").click(function() {
+    location.href = "shipinxiangqing.html"
+})
+$(".xiangqing_tiaozhuan").click(function(){
+    location.href = "index1.html"
+})
