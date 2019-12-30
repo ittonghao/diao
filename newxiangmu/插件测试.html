@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./my_css/bootstrap.css">
+</head>
+<body>
+    <ul class="nav nav-tabs navbar-right" role="tablist" style="margin-right: 200px;">
+        <li role="presentation" class="active"><a href="#home" 
+            aria-controls="home" role="tab" 
+            data-toggle="tab">Home</a></li>
+        <li role="presentation"><a href="#profile" 
+            aria-controls="profile" role="tab" 
+            data-toggle="tab">Profile</a></li>
+        <li role="presentation"><a href="#home" 
+            aria-controls="home" role="tab" 
+            data-toggle="tab">Home</a></li>
+        <li role="presentation"><a href="#profile" 
+            aria-controls="profile" role="tab" 
+            data-toggle="tab">Profile</a></li>
+        <li role="presentation"><a href="#home" 
+            aria-controls="home" role="tab" 
+            data-toggle="tab">Home</a></li>
+        <li role="presentation"><a href="#profile" 
+            aria-controls="profile" role="tab" 
+            data-toggle="tab">Profile</a></li>
+</ul>
+
+
+
+<div id="home">5454</div>
+<div id="profile">54654</div>
+</body>
+<script src="./my_js/jquery-3.4.1.min.js"></script>
+<script src="./my_js/bootstrap.js"></script>
+<script>
+$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+$('#myTabs a[href="#profile"]').tab('show') // Select tab by name
+$('#myTabs a:first').tab('show') // Select first tab
+$('#myTabs a:last').tab('show') // Select last tab
+$('#myTabs li:eq(2) a').tab('show')
+$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+  e.target // newly activated tab
+  e.relatedTarget // previous active tab
+})
+</script>
+</html>
